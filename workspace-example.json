@@ -1,0 +1,227 @@
+{
+	"name": "Watson Socket Bot",
+	"created": "2017-03-19T15:29:20.280Z",
+	"intents": [{
+		"intent": "capabilities",
+		"created": "2017-03-19T15:29:20.280Z",
+		"updated": "2017-03-19T15:29:20.280Z",
+		"examples": [{
+			"text": "capabilities",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "What are all the things you can do",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "what are your capabilities",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "What can you do",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "what do",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "What do you do",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "What is it you do",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}],
+		"description": null
+	}, {
+		"intent": "goodbye",
+		"created": "2017-03-19T15:29:20.280Z",
+		"updated": "2017-03-19T15:29:20.280Z",
+		"examples": [{
+			"text": "adios",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "bye",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "goodbye",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "later",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "sayonara",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "see ya",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "see you later",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}],
+		"description": null
+	}, {
+		"intent": "greeting",
+		"created": "2017-03-19T15:29:20.280Z",
+		"updated": "2017-03-19T15:29:20.280Z",
+		"examples": [{
+			"text": "good afternoon",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "good day",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "good evening",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "good morning",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "greetings",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "hay",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "hello",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "hey",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "hi",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "hiya",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "hola",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "howdy",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "wats up",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "wat up",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "waz up",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "whats up",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "what up",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}, {
+			"text": "yo",
+			"created": "2017-03-19T15:29:20.280Z",
+			"updated": "2017-03-19T15:29:20.280Z"
+		}],
+		"description": null
+	}],
+	"updated": "2017-03-19T15:30:16.714Z",
+	"entities": [],
+	"language": "en",
+	"metadata": null,
+	"description": "Workspace for creating your very own Watson chat bot.",
+	"dialog_nodes": [{
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["I can translate messages, I can read your tone, and say hello!"],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-03-19T15:29:20.280Z",
+		"updated": "2017-03-19T15:29:20.280Z",
+		"metadata": null,
+		"conditions": "#capabilities",
+		"description": null,
+		"dialog_node": "node_1_1489937148582",
+		"previous_sibling": "node_1_1487708280670"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["I'm sorry, I do not understand."],
+				"selection_policy": "sequential"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-03-19T15:29:20.280Z",
+		"updated": "2017-03-19T15:29:20.280Z",
+		"metadata": null,
+		"conditions": "anything_else",
+		"description": null,
+		"dialog_node": "node_2_1487630070832",
+		"previous_sibling": "node_1_1489937148582"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Bye!", "Later!", "Adios!", "See you later aligator!"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-03-19T15:29:20.280Z",
+		"updated": "2017-03-19T15:29:20.280Z",
+		"metadata": null,
+		"conditions": "#goodbye",
+		"description": null,
+		"dialog_node": "node_1_1487708280670",
+		"previous_sibling": "node_1_1487630064229"
+	}, {
+		"go_to": null,
+		"output": {
+			"text": {
+				"values": ["Howdy!", "Hi!", "Hello!", "Yo, what's up!", "Hey!", "Yo!"],
+				"selection_policy": "random"
+			}
+		},
+		"parent": null,
+		"context": null,
+		"created": "2017-03-19T15:29:20.280Z",
+		"updated": "2017-03-19T15:29:20.280Z",
+		"metadata": null,
+		"conditions": "#greeting",
+		"description": null,
+		"dialog_node": "node_1_1487630064229",
+		"previous_sibling": null
+	}],
+	"workspace_id": "0c2abff5-1b8a-4cfe-ae4c-4f29d4516f9a",
+	"counterexamples": []
+}
