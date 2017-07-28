@@ -70,9 +70,8 @@ Once your app has finished deploying, you are ready to start chatting.
 
 2. Enter a nickname, select a language, and hit `return` to enter the chatroom.
 
+#### Commands
 ```
-Commands:
-
 * Chat with Watson *
 /watson <text>
 
@@ -91,8 +90,11 @@ Sample commands:
 All messages are analyzed looking for Angry or Sad text.
 ```
 
+#### Chat Sample
+<img src="media/WatsonSocketChatSample.png" width="700">
+
 ## Next Steps
- * Update Watson Conversation Workspace
- * Add in an additional Watson service
+ * Update Watson Conversation Workspace with new Intents, Entities, and Dialog Flow.
+ * Add in an additional Watson service. Find examples [here](https://github.com/watson-developer-cloud).
 
 
