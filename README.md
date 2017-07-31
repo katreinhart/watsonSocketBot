@@ -10,7 +10,7 @@
 ### 1. Clone repo
 1. Git clone this sample project
 
-`$    git clone git@github.com:kostickm/watsonSocketBot.git`
+`$    git clone https://github.com/kostickm/watsonSocketBot.git`
 
 2. Change to your the newly cloned repo
 
