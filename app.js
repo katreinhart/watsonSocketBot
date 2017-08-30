@@ -203,7 +203,7 @@ io.on('connection', function (socket) {
       console.log('Watson socket called');
 
       const payload = {
-        workspace_id: process.env.WORKSPACE_ID || '<workspace_id>',
+        workspace_id: process.env.WORKSPACE_ID || '46903078-ded7-4ec9-b12b-4a7b80f78a1d',
         input: { text: data.message },
         context: context,
       };
@@ -265,12 +265,18 @@ io.on('connection', function (socket) {
             break;
             case stats[1]:
               name = tones[1].tone_name;
+              message = "I'm sorry, I did not mean to offend you. " + topTraitPercent + '% disgusted';
+              botTalk(message);
             break;
             case stats[2]:
               name = tones[2].tone_name;
+              message = "Muahahahaha! I have made you " + topTraitPercent + '% afraid. FEAR ME!'
+              botTalk(message);
             break;
             case stats[3]:
               name = tones[3].tone_name;
+              message = "Woohoo! PARTY!" + topTraitPercent + "% joyful."
+              botTalk(message);
             break;
             case stats[4]:
               name = tones[4].tone_name;
@@ -281,7 +287,6 @@ io.on('connection', function (socket) {
         }
       }
     });
-
   }
 
   function botTalk(message) {
